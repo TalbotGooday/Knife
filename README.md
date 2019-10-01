@@ -1,4 +1,4 @@
-Knife
+Kotlin Knife
 ===
 
 [![Release](https://jitpack.io/v/TalbotGooday/Knife.svg)](https://jitpack.io/#TalbotGooday/Knife)
@@ -84,9 +84,9 @@ At your top-level `build.gradle` file:
     
 And then at your project `build.gradle` file:
 
-    dependencies {
-        compile 'com.github.mthli:Knife:v1.1'
-    }
+  	dependencies {
+	        implementation 'com.github.TalbotGooday:Knife:Tag'
+  	}
     
 Done!
 
