@@ -14,26 +14,10 @@
  * limitations under the License.
  */
 
-package io.github.mthli.knife;
+package io.github.mthli.knife
 
-public class KnifePart {
-    private int start;
-    private int end;
+class KnifePart(val start: Int, val end: Int) {
 
-    public KnifePart(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-
-    public int getStart() {
-        return start;
-    }
-
-    public int getEnd() {
-        return end;
-    }
-
-    public boolean isValid() {
-        return start < end;
-    }
+	val isValid: Boolean
+		get() = start < end
 }
