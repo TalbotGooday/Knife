@@ -85,7 +85,7 @@ At your top-level `build.gradle` file:
 And then at your project `build.gradle` file:
 
   	dependencies {
-	        implementation 'com.github.TalbotGooday:Knife:Tag'
+	     implementation 'com.github.TalbotGooday:Knife:Tag'
   	}
     
 Done!
